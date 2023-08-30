@@ -11,7 +11,7 @@
 import time
 
 def wash(basket):
-    print(f'{time.ctime()} - Washing Machine ({basket}): Put the coin')
+    
     print(f'{time.ctime()} - Washing Machine ({basket}): Start washing...')
     time.sleep(5)
     print(f'{time.ctime()} - Washing Machine ({basket}): Finished washing')
